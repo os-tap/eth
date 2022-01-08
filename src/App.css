@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.removeBtn-col {
+  flex: 0 !important
+}
+input.input.form-control-plaintext {
+  padding: .375rem;
+  border-color: rgb(206, 212, 218);
+  border-width: 1px;
+}
+input.input.form-control-plaintext:disabled {
+  border-color: #e9ecef;
+}
+.app {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.card.pass:not(:last-child) {
+  border-bottom: none !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.card.pass:not(:first-child) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
